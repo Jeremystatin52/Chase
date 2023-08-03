@@ -1,0 +1,13 @@
+
+.btn-primary-blue {
+    background-color: $primary-blue-light;
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s;
+
+    &:hover {
+        color: #fff !important;
+        font-weight: 500;
+        background-color: $primary-blue-dark !important;
+    }
+}

@@ -1,0 +1,66 @@
+
+.card-form {
+    margin: 6% auto 0 auto;
+    padding: 1.25rem;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 384px !important;
+
+    .form-inputs {
+        position: relative;
+        margin-top: 2rem;
+        input {
+            padding: 5px;
+            box-shadow: none;
+            border-radius: 0px;
+            border: none;
+            border-bottom: 2px solid #ccc !important;
+            transition: all .3s;
+            font-size: 1.125rem;
+
+            &:focus {
+                border-bottom: 2px solid $primary-blue-light !important;
+            }
+
+            &:focus, &:valid {
+                + label {
+                    top: -1.2rem;
+                }
+            }
+        }
+
+        label {
+            font-family: $font-os;
+            pointer-events: none;
+            position: absolute;
+            top: .4rem;
+            left: .4rem;
+            transition: all .3s;
+        }
+    }
+
+    .form-check {
+        display: inline-block;
+        color: $color-grey-dark;
+
+        input {
+            box-shadow: none;
+        }
+
+        &--second {
+            float: right;
+        }
+    }
+
+    .form-links {
+        color: $primary-blue-light;
+        text-decoration: none;
+        font-size: .875rem;
+        line-height: 1.6rem;
+        display: block;
+    }
+
+    .form-links:not(:last-child) {
+        margin-top: 10px;
+    }
+}

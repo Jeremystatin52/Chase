@@ -1,0 +1,13 @@
+.navbar-verification {
+    background-color: rgba(8,70,168,.9) !important;
+    height: 4.4rem;
+    z-index: 1;
+
+    .navbar-brand {
+        margin: 0 auto !important;
+        .logo-octogon {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

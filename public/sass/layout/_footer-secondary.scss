@@ -1,0 +1,21 @@
+.footer-secondary {
+    text-align: center;
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 .5rem;
+
+            a {
+                text-decoration: underline;
+                color: #126bc5;
+                font-size: .8125rem; 
+            }
+        }
+    }
+
+    .footer-brand {
+        margin: -.5rem 0 1rem 0;
+        width: 170px;
+    }
+}
